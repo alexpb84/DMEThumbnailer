@@ -110,7 +110,7 @@
         else{
             NSData *data = [NSData dataWithContentsOfFile:aPath];
             if(data){
-                aSize = [self adjustSizeRetina:aSize];
+//                aSize = [self adjustSizeRetina:aSize];
                 
                 thumbnail = [self imageByScalingAndCropping:[UIImage imageWithData:data] forSize:aSize];
                 
